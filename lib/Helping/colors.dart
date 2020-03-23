@@ -17,4 +17,7 @@ class CustomColor {
   static final materialPrimaryColor = MaterialColor(0xFF294459, color);
 
   static final primarycolor = Color.fromRGBO(41, 68, 89, 1);
+  static final primarycolor90 = Color.fromRGBO(41, 68, 89, .9);
+  static final primarycolor70 = Color.fromRGBO(41, 68, 89, .7);
+  static final primarycolor50 = Color.fromRGBO(41, 68, 89, .5);
 }

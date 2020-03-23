@@ -50,7 +50,8 @@ class NavDrawer extends StatelessWidget {
   }
 
   drawerProfileInfo() {
-    return Row(
+    return 
+    Row(
       children: <Widget>[
         Padding(
           padding: const EdgeInsets.only(right: 10),

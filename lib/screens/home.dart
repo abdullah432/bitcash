@@ -13,7 +13,10 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: NavDrawer(),
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text('Bitcash'),
+        
+      ),
       body: Container(color: Colors.white)
   );
   }
