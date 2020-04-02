@@ -1,6 +1,8 @@
-import 'package:bitcash/Helping/colors.dart';
+import 'package:bitcash/Utils/colors.dart';
 import 'package:bitcash/screens/account.dart';
+import 'package:bitcash/screens/categorpage.dart';
 import 'package:bitcash/screens/login.dart';
+import 'package:bitcash/screens/stores.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/login.dart';
@@ -18,7 +20,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: CustomColor.materialPrimaryColor
       ),
       // home: LoginPage()
-      home: MyAccount(),
+      // home: MyAccount(),
+      // home: StoresPage(),
+      home: CategoryPage(),
     );
   }
 }

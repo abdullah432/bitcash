@@ -1,4 +1,4 @@
-import 'package:bitcash/Helping/colors.dart';
+import 'package:bitcash/Utils/colors.dart';
 import 'package:bitcash/screens/login.dart';
 import 'package:flutter/material.dart';
 
